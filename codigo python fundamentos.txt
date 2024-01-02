@@ -1,0 +1,14 @@
+>>> lista = [1,2,3]
+>>> print(a * lista)
+[1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>> dicionario = ({'nome': 'Pedro','idade':33})
+>>> print("Tambem aceita aspas duplas")
+Tambem aceita aspas duplas
+>>> print(True)
+True
+>>> # print (3 + '3') - > ambiguidade
+>>> print(False)
+False
+>>> print(1.2 +1)
+2.2
+>>> print(None)

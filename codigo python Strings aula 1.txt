@@ -1,0 +1,50 @@
+>>> nome
+'Adriel'
+>>> nome[0]
+'A'
+>>> nome{[1]
+     
+SyntaxError: invalid syntax
+>>> nome[1]
+'d'
+>>> 'Dias D'Avila'
+SyntaxError: invalid syntax
+>>> 'Dias D\'avila'
+"Dias D'avila"
+>>> "marca d'agus"
+"marca d'agus"
+>>> 'marca d'agua'
+SyntaxError: invalid syntax
+>>> SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+>>> 
+>>> texto = 'Texto entre apostrófos pode ter "aspas"'
+>>> texto
+'Texto entre apostr\xf3fos pode ter "aspas"'
+>>> "Teste \ " funcional"
+SyntaxError: invalid syntax
+>>> "teste \ "funcional!"
+SyntaxError: invalid syntax
+>>> doc = """Texto com múltiplas
+... linhas"""
+>>> 
+>>> doc
+'Texto com m\xfaltiplas\n... linhas'
+>>> print("Texto com multiplas\n ... linhas')
+      
+SyntaxError: EOL while scanning single-quoted string
+>>> print("Texto com multiplas\n\t ... linhas')
+      
+SyntaxError: EOL while scanning single-quoted string
+>>> doc print("Texto com multiplas\n ... linhas')
+	  
+SyntaxError: invalid syntax
+>>> doc
+'Texto com m\xfaltiplas\n... linhas'
+>>> doc2
+
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    doc2
+NameError: name 'doc2' is not defined
+>>> 
