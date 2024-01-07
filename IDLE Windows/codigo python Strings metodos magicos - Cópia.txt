@@ -1,0 +1,32 @@
+>>> a ='123'
+>>> b ' de Oliveira 4'
+SyntaxError: invalid syntax
+>>> b ='de oliveira4'
+>>> a+ b
+'123de oliveira4'
+>>> a = '123 '
+>>> a +b
+'123 de oliveira4'
+>>> b ' Oliveira 4'
+SyntaxError: invalid syntax
+>>> a +b
+'123 de oliveira4'
+>>> b = ' Oliveira 4 '
+>>> a +b
+'123  Oliveira 4 '
+>>> a.__add__(b)
+'123  Oliveira 4 '
+>>> str.__add__(a,b)
+'123  Oliveira 4 '
+>>> 
+>>> len(a)
+4
+>>> a.__len__()
+4
+>>> '1' in a
+True
+>>> a.__contains__('1')
+True
+>>> dir(str)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__str__', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> 

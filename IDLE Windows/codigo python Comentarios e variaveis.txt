@@ -1,0 +1,11 @@
+>>> '''
+O comentaário inicia com aspas simples e temrina com ela
+'''
+'\nO comenta\xe1rio inicia com aspas simples e temrina com ela\n'
+>>> """
+O comentario tambem pode ser feito com aspas duplas"""
+'\nO comentario tambem pode ser feito com aspas duplas'
+>>> 
+>>> # O Interpretador ignora a linha com # do comentário.
+>>> #use nomes simples para as variaveis e evite comentarios que nao agregam, fazendo os sempre em cima do código dentor do contexto.
+>>> 
