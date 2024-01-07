@@ -44,6 +44,6 @@ if __name__ == '__main__':
    conceito = nota_conceito(valor_informado)
    print(conceito)
 
-   # O cÃ³digo pode ser reescrito da seguinte forma
+   # O código pode ser reescrito da seguinte forma
    # print(nota_conceito(input('nota do aluno: ')))
    # sem prejuizo no seu resultado
