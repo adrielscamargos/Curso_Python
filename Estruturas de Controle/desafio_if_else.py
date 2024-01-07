@@ -43,3 +43,7 @@ if __name__ == '__main__':
    valor_informado = input('nota do aluno: ')
    conceito = nota_conceito(valor_informado)
    print(conceito)
+
+   # O código pode ser reescrito da seguinte forma
+   # print(nota_conceito(input('nota do aluno: ')))
+   # sem prejuizo no seu resultado
